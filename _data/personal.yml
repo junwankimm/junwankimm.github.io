@@ -1,6 +1,6 @@
-name: Jun-Wan KIM
+name: Junwan KIM
 
-label: AI Developer
+label: AI Researcher
 
 picture: /img/cat.jpg
 
@@ -8,7 +8,7 @@ email: jw1510@yonsei.ac.kr
 
 phone: +82-10-9353-7393
 
-department: Artificial Intelligence, Computer Vision, Multimodal
+department: Artificial Intelligence
 
 institution: Yonsei University
 
@@ -30,12 +30,12 @@ profiles:
     url: https://twitter.com/
 
 intro:
-  title: Bio
+  title: Career Summary
   body: >
-    Human can think beyond a single modality, such as seeing a scene (visual representations) and 
+    _**Human can think beyond a single modality**_, such as seeing a scene (visual representations) and 
     conjuring up poems (language representations) about it, or imagining the sounds (audio representations) 
-    associated with that scene, or so on.  
+    associated with that scene, or so on.
 
-    In this context, I believe that imitating humans through integration of such modalities is  
-    ultimately the direction AI should pursue. Therefore, my primary research lie in the field of artificial intelligence,  
-    particularly but not limited to multimodal. Specifically, Vision-Language Models (VLMs), Multimodal-Large-Language Models (MLLMs)
+    <br/><br/>In this context, I believe that imitating humans through integration of such modalities is  
+    ultimately the direction AI should pursue. Therefore, _**my primary research lie in the field of artificial intelligence,  
+    particularly but not limited to computer vision and multimodal. Specifically, Vision-Language Models (VLMs), Multimodal-Large-Language Models (MLLMs)**_
