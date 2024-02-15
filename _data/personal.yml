@@ -18,26 +18,24 @@ mailing_address: >
 profiles:
   - 
     network: Google Scholar
-    username:
-    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+    username: Junwan KIM
+    url: http://scholar.google.com/
   -
     network: LinkedIn
-    username:
-    url: https://www.linkedin.com/pub/ian-li/1/681/8b0
+    username: Junwan KIM
+    url: https://www.linkedin.com/
   -
     network: Twitter
-    username: ianli
-    url: https://twitter.com/ianli/
+    username: Junwan KIM
+    url: https://twitter.com/
 
 intro:
-  title: CV
+  title: Bio
   body: >
-    I'm a UI designer at Google.
-    Before Google, I was a Ph.D. student in the 
-    [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) at Carnegie Mellon University.
-    My advisors were 
-    [Anind Dey](http://www.cs.cmu.edu/~anind/) and 
-    [Jodi Forlizzi](http://goodgestreet.com/). 
-    I worked on designed and developed 
-    [personal informatics tools](http://www.personalinformatics.org/) that help people better understand their own behavior.
-    [My dissertation](http://ianli.com/thesis/) explored how contextual information can improve self-knowledge in personal informatics systems.
+    Human can think beyond a single modality, such as seeing a scene (visual representations) and 
+    conjuring up poems (language representations) about it, or imagining the sounds (audio representations) 
+    associated with that scene, or so on.  
+
+    In this context, I believe that imitating humans through integration of such modalities is  
+    ultimately the direction AI should pursue. Therefore, my primary research lie in the field of artificial intelligence,  
+    particularly but not limited to multimodal. Specifically, Vision-Language Models (VLMs), Multimodal-Large-Language Models (MLLMs)
