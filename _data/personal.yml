@@ -2,7 +2,7 @@ name: Junwan KIM
 
 label: AI Researcher
 
-picture: /img/cat.jpg
+picture: /img/me.JPG
 
 email: jw1510@yonsei.ac.kr
 
@@ -23,14 +23,14 @@ profiles:
   -
     network: LinkedIn
     username: Junwan KIM
-    url: https://www.linkedin.com/
+    url: https://linkedin.com/in/junwan-kim-39b3aa287
   -
     network: Twitter
     username: Junwan KIM
     url: https://twitter.com/
 
 intro:
-  title: Career Summary
+  title: CV
   body: >
     _**Human can think beyond a single modality**_, such as seeing a scene (visual representations) and 
     conjuring up poems (language representations) about it, or imagining the sounds (audio representations) 
