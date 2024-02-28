@@ -10,7 +10,7 @@ phone: +82-10-9353-7393
 
 department: Artificial Intelligence
 
-institution: Yonsei University
+institution: Student @ Yonsei Univiersity
 
 mailing_address: >
   50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
@@ -25,12 +25,16 @@ profiles:
     username: Junwan KIM
     url: https://linkedin.com/in/junwan-kim-39b3aa287
   -
-    network: Twitter
+    network: Notion
     username: Junwan KIM
-    url: https://twitter.com/
+    url: https://kimjuwan.notion.site
+  -
+    network: CV
+    username: Junwan KIM
+    url: https://drive.google.com/file/d/1sbE0I6Gqhce8jyLFl2x5fIyZLOrYP4gT/view?usp=drive_link
 
 intro:
-  title: CV
+  title: Junwan Kim
   body: >
     _**Human can think beyond a single modality**_, such as seeing a scene (visual representations) and 
     conjuring up poems (language representations) about it, or imagining the sounds (audio representations) 
