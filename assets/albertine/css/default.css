@@ -31,6 +31,17 @@ header {
   background-color: #fff;
 }
 
+header .profile-image-container {
+  text-align: center; /* 프로필 이미지를 중앙 정렬 */
+}
+
+header .profile-image {
+  margin-top: -6px;
+  width: 130px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  display: inline-block; /* 중앙 정렬을 위한 인라인 블록 */
+}
+
 .contact-sticky {
   position: fixed;
   top: 180px; /* 프로필 이미지 아래로 이동 */
@@ -39,10 +50,28 @@ header {
   padding-top: 20px;
 }
 
+@media (max-width: 1200px) {
+  .contact-sticky {
+    position: static;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Contact 섹션의 왼쪽 정렬 문제 해결 */
+@media (max-width: 992px) {
+  .contact-sticky {
+    margin-left: 15px; /* 왼쪽 여백 추가 */
+  }
+}
+
 .text-right-black {
   text-align: right;
   color: #000;
 }
+
+
 
 
 header h1 {
