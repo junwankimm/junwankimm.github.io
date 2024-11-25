@@ -1,15 +1,44 @@
 -
-  type: journal
+  type: conference
+  title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
+  authors: Jungbin Cho*, Junwan Kim*, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu
+  conference: arXiv preprint
+  year: 2024
+  pdf: http://ianli.com/publications/2011-ianli-ubicomp-understanding-my-data.pdf
+  url: http://dl.acm.org/citation.cfm?id=2030166
+-
+  type: conference
   title: Design and Implementation of User-Interactive Crowd Accident Avoiding System
-  authors: Junwan Kim, Youngbae Kong, Byeongho Kim, Minjae Park, Jeongeun Nah
-  journal: Korea Information Processing Society (KIPS), Collection of Conferences
-  volume: 30
+  authors: Junwan Kim*, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah
+  conference: Annual Conference of Korea Information Processing Society (ACK)
   year: 2023
-  issue: 2
   pages: 914-915
-  month: October
   pdf: https://kiss.kstudy.com/Detail/Ar?key=4059502
   url: https://kiss.kstudy.com/Detail/Ar?key=4059502
+-
+  type: conference
+  title: "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning"
+  authors: Chanhyuk Park*, Jungbin Cho*, Junwan Kim*, Seongmin Lee, Jungsu Kim, Sanghoon Lee
+  conference: International Joint Conference on Artificial Intelligence (IJCAI) Demonstrations Track
+  year: 2024
+  pdf: https://arxiv.org/abs/2409.00012
+  url: https://arxiv.org/abs/2409.00012
+-
+  type: conference
+  title: "Pegasus-v1 Technical Report"
+  authors: TwelvLabs Team
+  conference: arXiv preprint
+  year: 2024
+  pdf: https://arxiv.org/abs/2404.14687
+  url: https://arxiv.org/abs/2404.14687
+-
+  type: conference
+  title: "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models"
+  authors: TwelvLabs Team
+  conference: arXiv preprint
+  year: 2024
+  pdf: https://arxiv.org/abs/2408.11318
+  url: https://arxiv.org/abs/2408.11318
 -
 #   type: dissertation
 #   title: "Personal Informatics and Context: Using Context to Reveal Factors that Affect Behavior"
