@@ -19,7 +19,7 @@ profiles:
   - 
     network: Google Scholar
     username: Junwan KIM
-    url: http://scholar.google.com/
+    url: https://scholar.google.com/citations?user=YLcOjgIAAAAJ&hl
   -
     network: LinkedIn
     username: Junwan KIM
@@ -31,15 +31,11 @@ profiles:
   -
     network: CV
     username: Junwan KIM
-    url: https://drive.google.com/file/d/1sbE0I6Gqhce8jyLFl2x5fIyZLOrYP4gT/view?usp=drive_link
+    url: https://drive.google.com/file/d/1pas-Ltzkol_pTt-Z-hqoWYCXcQqjn6Om/view?usp=sharing
 
 intro:
   title: Junwan Kim
   body: >
-    _**Human can think beyond a single modality**_, such as seeing a scene (visual representations) and 
-    conjuring up poems (language representations) about it, or imagining the sounds (audio representations) 
-    associated with that scene, or so on.
-
-    <br/><br/>In this context, I believe that imitating humans through integration of such modalities is  
-    ultimately the direction AI should pursue. Therefore, _**my primary research lie in the field of artificial intelligence,  
-    particularly but not limited to computer vision and multimodal. Specifically, Vision-Language Models (VLMs), Multimodal-Large-Language Models (MLLMs)**_
+    Currently, I am an undergraduate student majoring in Electrical and Electronic Engineering at Yonsei University.
+    My resert interest lies in the field of artificial intelligence, particularly but not limited to high-dimensional computer vision perception.
+    I am searching for MS/Ph.D. programs that aligns with my research interests and career goals.
