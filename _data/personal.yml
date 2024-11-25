@@ -8,9 +8,9 @@ email: jw1510@yonsei.ac.kr
 
 phone: +82-10-9353-7393
 
-department: Artificial Intelligence
+department: Computer Vision
 
-institution: Undergraduate Student @ Yonsei Univiersity
+institution: <b>Undergraduate Student @ Yonsei Univiersity</b>
 
 mailing_address: >
   50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
@@ -27,7 +27,7 @@ profiles:
   -
     network: Notion
     username: Junwan KIM
-    url: https://kimjuwan.notion.site
+    url: https://kimjunwan.notion.site
   -
     network: CV
     username: Junwan KIM
@@ -37,5 +37,5 @@ intro:
   title: Junwan Kim
   body: >
     Currently, I am an undergraduate student majoring in Electrical and Electronic Engineering at Yonsei University.
-    My resert interest lies in the field of artificial intelligence, particularly but not limited to high-dimensional computer vision perception.
-    I am searching for MS/Ph.D. programs that aligns with my research interests and career goals.
+    My research interest lies in the field of artificial intelligence, particularly but not limited to high-dimensional computer vision perception.
+    I am searching for MS/Ph.D. programs abroad that aligns with my research interests and career goals.

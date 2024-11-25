@@ -91,7 +91,7 @@ It is threatened by habitat loss.
         </div>
         
       </section>
-      <section class="col-md-offset-1 col-md-3">
+      <section class="col-md-offset-1 col-md-3 contact-sticky">
         <h3>Contact</h3>
         <p class="info">
           {{ site.data.personal.email | replace:'@',' <small>[at]</small> ' | replace:'.',' <small>[dot]</small> ' }}
@@ -163,6 +163,8 @@ It is threatened by habitat loss.
             {% endcase %}
           </p>
         {% endfor %}
+        <p class="text-right-black"><small>* denotes equal contribution</small></p>
+        <!-- <p><small>* denotes equal contribution</small></p> -->
       </section>
     </div>
   </div>
@@ -214,44 +216,6 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
-  {% if site.data.educations.size > 0 %}
-  <!-- ==================== -->
-  <!-- Educations -->
-  <!-- ==================== -->
-  <section class="container">
-    <div class="row">
-      <div class="col-md-9">
-        <h3>Educations</h3>
-      </div>
-    </div>
-
-    {% for education in site.data.educations %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
-            <b>
-              {% if education.url %}
-                <a href="{{ education.url }}">
-                  {{ education.title }}
-                </a>
-              {% else %}
-                {{ education.title }}
-              {% endif %}
-            </b>
-            <small>
-              {{ education.date }}
-            </small>
-            <br>
-              {{ education.location }}
-            <br>
-              {{education.detail}}
-          </p>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
-  {% endif %}
-
   {% if site.data.careers.size > 0 %}
   <!-- ==================== -->
   <!-- Careers -->
@@ -283,6 +247,44 @@ It is threatened by habitat loss.
               {{ career.location }}
             <br>
               {{ career.detail }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if site.data.educations.size > 0 %}
+  <!-- ==================== -->
+  <!-- Educations -->
+  <!-- ==================== -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Educations</h3>
+      </div>
+    </div>
+
+    {% for education in site.data.educations %}
+      <div class="row">
+        <div class="col-md-9">
+          <p>
+            <b>
+              {% if education.url %}
+                <a href="{{ education.url }}">
+                  {{ education.title }}
+                </a>
+              {% else %}
+                {{ education.title }}
+              {% endif %}
+            </b>
+            <small>
+              {{ education.date }}
+            </small>
+            <br>
+              {{ education.location }}
+            <br>
+              {{education.detail}}
           </p>
         </div>
       </div>

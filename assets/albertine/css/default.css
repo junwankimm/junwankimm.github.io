@@ -7,14 +7,15 @@ body {
           box-sizing:border-box;
   font-family:'Roboto', 'Arial', sans-serif;
   font-size:16px;
-  padding-top:176px;
+  /* padding-top:176px; */
+  padding-top: 0; /* 기존 176px 패딩 제거 */
   background-color:#fff;
 }
 
 /*******************
  * HEADER
  *******************/
-header {
+/* header {
   position:fixed;
   z-index:100;
   top:0;
@@ -22,18 +23,39 @@ header {
   right:0;
   padding:32px 0;
   background-color:#fff;
+} */
+header {
+  position: relative;
+  z-index: 100;
+  padding: 32px 0;
+  background-color: #fff;
 }
-  header h1 {
-    margin:0;
-    line-height:24px;
-    font-weight:bold;
-    font-size:18px;
-  }
-  header h2 {
-    margin:0;
-    line-height:24px;
-    font-size:18px;
-  }
+
+.contact-sticky {
+  position: fixed;
+  top: 180px; /* 프로필 이미지 아래로 이동 */
+  right: 0;
+  width: 25%; /* 필요에 따라 조정 */
+  padding-top: 20px;
+}
+
+.text-right-black {
+  text-align: right;
+  color: #000;
+}
+
+
+header h1 {
+  margin:0;
+  line-height:24px;
+  font-weight:bold;
+  font-size:18px;
+}
+header h2 {
+  margin:0;
+  line-height:24px;
+  font-size:18px;
+}
 
 footer {
   padding:48px 0 96px;
@@ -45,7 +67,7 @@ footer {
  * SECTION
  *******************/
 section {
-  padding:48px 0;
+  padding:3px 0;
 }
   section h3 {
     padding:0 0 8px;
@@ -91,9 +113,9 @@ section {
  *******************/
 body,
 header {
-  -webkit-transition:background-color 1s;
-     -moz-transition:background-color 1s;
-          transition:background-color 1s;
+  -webkit-transition:background-color 1s, color 1s;
+     -moz-transition:background-color 1s, color 1s;
+          transition:background-color 1s, color 1s;
 } 
 
 
