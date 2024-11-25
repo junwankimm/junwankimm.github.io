@@ -1,7 +1,7 @@
 -
   type: conference
   title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
-  authors: Jungbin Cho*, Junwan Kim*, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu
+  authors: Jungbin Cho*, <u>Junwan Kim*</u>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu
   conference: arXiv preprint
   year: 2024
   pdf: http://ianli.com/publications/2011-ianli-ubicomp-understanding-my-data.pdf
@@ -9,7 +9,7 @@
 -
   type: conference
   title: Design and Implementation of User-Interactive Crowd Accident Avoiding System
-  authors: Junwan Kim*, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah
+  authors: <u>Junwan Kim*</u>, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah
   conference: Annual Conference of Korea Information Processing Society (ACK)
   year: 2023
   pages: 914-915
@@ -18,7 +18,7 @@
 -
   type: conference
   title: "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning"
-  authors: Chanhyuk Park*, Jungbin Cho*, Junwan Kim*, Seongmin Lee, Jungsu Kim, Sanghoon Lee
+  authors: Chanhyuk Park*, Jungbin Cho*, <u>Junwan Kim*</u>, Seongmin Lee, Jungsu Kim, Sanghoon Lee
   conference: International Joint Conference on Artificial Intelligence (IJCAI) Demonstrations Track
   year: 2024
   pdf: https://arxiv.org/abs/2409.00012
