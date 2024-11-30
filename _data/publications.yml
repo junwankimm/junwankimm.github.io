@@ -4,21 +4,20 @@
   authors: <b>Jungbin Cho*, <u>Junwan Kim*</u>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu</b>
   conference: arXiv preprint
   year: 2024
-  pdf: http://ianli.com/publications/2011-ianli-ubicomp-understanding-my-data.pdf
-  url: http://dl.acm.org/citation.cfm?id=2030166
+  pdf: https://whwjdqls.github.io/discord.github.io/
+  url: https://whwjdqls.github.io/discord.github.io/
 -
   type: conference
   title: "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models"
   authors: <b>TwelvLabs Team</b>
-  conference: arXiv preprint
-  year: 2024
+  conference: Technical Report
   pdf: https://arxiv.org/abs/2408.11318
   url: https://arxiv.org/abs/2408.11318
 -
   type: conference
   title: "Pegasus-v1 Technical Report"
   authors: <b>TwelvLabs Team</b>
-  conference: arXiv preprint
+  conference: Technical Report
   year: 2024
   pdf: https://arxiv.org/abs/2404.14687
   url: https://arxiv.org/abs/2404.14687
