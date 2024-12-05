@@ -290,6 +290,38 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
+  {% if site.data.research_experience.size > 0 %}
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Research Experiences</h3>
+      </div>
+    </div>
+    {% for research in site.data.research_experience %}
+      <div class="row">
+        <div class="col-md-9">
+          <p>
+            <b>
+              {% if research.url %}
+                <a href="{{ research.url }}">{{ research.title }}</a>
+              {% else %}
+                {{ research.title }}
+              {% endif %}
+            </b>
+            <small>{{ research.date }}</small>
+            <br>
+            {{ research.location }}
+            <br>
+            {{ research.detail }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+
+
   <!-- ==================== -->
   <!-- FOOTER -->
   <!-- ==================== -->
