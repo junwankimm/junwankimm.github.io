@@ -8,7 +8,7 @@
   url: https://cvlab-kaist.github.io/URECA/
 -
   type: conference
-  title: "V.I.P. : Iterative Online Preference Distillation for Efficient Video Diffusion Models"
+  title: '<img src="/img/diamond.png" style="height:0.9em; vertical-align:middle;"> V.I.P.: Iterative Online Preference Distillation for Efficient Video Diffusion Models'
   authors: <b>Jisoo Kim, Wooseok Seo, <u>Junwan Kim</u>, Seungho Park, Sooyeon Park, Youngjae Yu</b>
   conference: arXiv preprint
   year: 2025
