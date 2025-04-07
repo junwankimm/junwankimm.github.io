@@ -1,5 +1,21 @@
 -
   type: conference
+  title: "URECA💡: Unique Region Caption Anything"
+  authors: <b>Sangbeom Lim*, <u>Junwan Kim*</u>, Heeji Yoon, Jaewoo Jung, Seungryong Kim</b>
+  conference: arXiv preprint
+  year: 2025
+  pdf: https://cvlab-kaist.github.io/URECA/
+  url: https://cvlab-kaist.github.io/URECA/
+-
+  type: conference
+  title: "V.I.P. : Iterative Online Preference Distillation for Efficient Video Diffusion Models"
+  authors: <b>Jisoo Kim, Wooseok Seo, <u>Junwan Kim</u>, Seungho Park, Sooyeon Park, Youngjae Yu</b>
+  conference: arXiv preprint
+  year: 2025
+  pdf: https://junwankimm.github.io/
+  url: https://junwankimm.github.io/
+-
+  type: conference
   title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
   authors: <b>Jungbin Cho*, <u>Junwan Kim*</u>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu</b>
   conference: arXiv preprint
