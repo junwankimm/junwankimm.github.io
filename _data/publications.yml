@@ -10,7 +10,7 @@
   type: conference
   title: '<img src="/img/diamond.png" style="height:0.9em; vertical-align:middle;"> V.I.P.: Iterative Online Preference Distillation for Efficient Video Diffusion Models'
   authors: <b>Jisoo Kim, Wooseok Seo, <u>Junwan Kim</u>, Seungho Park, Sooyeon Park, Youngjae Yu</b>
-  conference: arXiv preprint
+  conference: International Conference of Computer Vision (ICCV) 2025
   year: 2025
   pdf: https://junwankimm.github.io/
   url: https://junwankimm.github.io/
@@ -18,7 +18,7 @@
   type: conference
   title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
   authors: <b>Jungbin Cho*, <u>Junwan Kim*</u>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu</b>
-  conference: arXiv preprint
+  conference: International Conference of Computer Vision (ICCV) 2025
   year: 2024
   pdf: https://whwjdqls.github.io/discord.github.io/
   url: https://whwjdqls.github.io/discord.github.io/
@@ -42,7 +42,7 @@
   type: conference
   title: "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning"
   authors: <b>Chanhyuk Park*, Jungbin Cho*, <u>Junwan Kim*</u>, Seongmin Lee, Jungsu Kim, Sanghoon Lee</b>
-  conference: International Joint Conference on Artificial Intelligence (IJCAI) Demonstrations Track
+  conference: International Joint Conference on Artificial Intelligence (IJCAI) Demonstrations Track 2024
   year: 2024
   pdf: https://arxiv.org/abs/2409.00012
   url: https://arxiv.org/abs/2409.00012
@@ -50,7 +50,7 @@
   type: conference
   title: Design and Implementation of User-Interactive Crowd Accident Avoiding System
   authors: <b><u>Junwan Kim*</u>, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah</b>
-  conference: Annual Conference of Korea Information Processing Society (ACK)
+  conference: Annual Conference of Korea Information Processing Society (ACK) 2023
   year: 2023
   pages: 914-915
   pdf: https://kiss.kstudy.com/Detail/Ar?key=4059502
