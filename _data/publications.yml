@@ -6,6 +6,7 @@
   year: 2025
   pdf: https://cvlab-kaist.github.io/URECA/
   url: https://cvlab-kaist.github.io/URECA/
+  image: /img/publications/ureca.png
 -
   type: conference
   title: '<img src="/img/diamond.png" style="height:0.9em; vertical-align:middle;"> V.I.P.: Iterative Online Preference Distillation for Efficient Video Diffusion Models'
@@ -14,6 +15,7 @@
   year: 2025
   pdf: https://junwankimm.github.io/
   url: https://junwankimm.github.io/
+  image: /img/publications/vip.png
 -
   type: conference
   title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
@@ -22,6 +24,7 @@
   year: 2024
   pdf: https://whwjdqls.github.io/discord.github.io/
   url: https://whwjdqls.github.io/discord.github.io/
+  image: /img/publications/discord.png
 -
   type: conference
   title: "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models"
@@ -30,6 +33,7 @@
   year: 2024
   pdf: https://arxiv.org/abs/2408.11318
   url: https://arxiv.org/abs/2408.11318
+  image: /img/publications/twlv_i.png
 -
   type: conference
   title: "Pegasus-v1 Technical Report"
@@ -38,14 +42,16 @@
   year: 2024
   pdf: https://arxiv.org/abs/2404.14687
   url: https://arxiv.org/abs/2404.14687
+  image: /img/publications/pegasus.png
 -
   type: conference
   title: "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning"
   authors: <b>Chanhyuk Park*, Jungbin Cho*, <u>Junwan Kim*</u>, Seongmin Lee, Jungsu Kim, Sanghoon Lee</b>
-  conference: International Joint Conference on Artificial Intelligence (IJCAI) Demonstrations Track 2024
+  conference: International Joint Conference on Artificial Intelligence (IJCAI) Demo Track 2024
   year: 2024
   pdf: https://arxiv.org/abs/2409.00012
   url: https://arxiv.org/abs/2409.00012
+  image: /img/publications/avin_chat.png
 -
   type: conference
   title: Design and Implementation of User-Interactive Crowd Accident Avoiding System
@@ -55,6 +61,7 @@
   pages: 914-915
   pdf: https://kiss.kstudy.com/Detail/Ar?key=4059502
   url: https://kiss.kstudy.com/Detail/Ar?key=4059502
+  image: /img/publications/caas.png
 -
 #   type: dissertation
 #   title: "Personal Informatics and Context: Using Context to Reveal Factors that Affect Behavior"

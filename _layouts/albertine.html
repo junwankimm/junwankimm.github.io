@@ -129,40 +129,52 @@ It is threatened by habitat loss.
     <div class="row">
       <section class="col-md-9">
         <h3>Publications</h3>
-
         {% for publication in site.data.publications %}
-          <p>
-            <b>
-              <a href="{{ publication.pdf }}">
-                {{ publication.title }}
-              </a>
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.authors }}
-            <br>
-            {% case publication.type %}
-              {% when 'conference' %}
-                {{ publication.conference }}
-              {% when 'dissertation' %}
-                {{ publication.publisher }}
-              {% when 'journal' %}
-                {{ publication.journal }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
-              {% when 'magazine' %}
-                {{ publication.magazine }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
-            {% endcase %}
-          </p>
+          <div class="row" style="display: flex; align-items: center;">
+            <div class="col-xs-4 col-sm-3 col-md-3" style="display: flex; align-items: center;">
+              {% if publication.image %}
+                <img src="{{ site.baseurl }}{{ publication.image }}" 
+                    class="img-responsive img-thumbnail"
+                    style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center; max-width:180px;">
+              {% else %}
+                <!-- 이미지가 없을 경우 빈 공간 -->
+                <div style="width:100%; aspect-ratio:4/3; max-width:200px;"></div>
+              {% endif %}
+            </div>
+            <div class="col-xs-8 col-sm-9 col-md-9">
+              <p>
+                <b>
+                  <a href="{{ publication.pdf }}">
+                    {{ publication.title }}
+                  </a>
+                </b>
+                <small>
+                  {{ publication.year }}
+                </small>
+                <br>
+                {{ publication.authors }}
+                <br>
+                {% case publication.type %}
+                  {% when 'conference' %}
+                    {{ publication.conference }}
+                  {% when 'dissertation' %}
+                    {{ publication.publisher }}
+                  {% when 'journal' %}
+                    {{ publication.journal }},
+                    {{ publication.volume }},
+                    {{ publication.issue }},
+                    {{ publication.pages }}
+                  {% when 'magazine' %}
+                    {{ publication.magazine }},
+                    {{ publication.volume }},
+                    {{ publication.issue }},
+                    {{ publication.pages }}
+                {% endcase %}
+              </p>
+            </div>
+          </div>
         {% endfor %}
         <p class="text-right-black"><small>* denotes equal contribution</small></p>
-        <!-- <p><small>* denotes equal contribution</small></p> -->
       </section>
     </div>
   </div>
