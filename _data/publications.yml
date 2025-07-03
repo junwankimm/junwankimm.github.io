@@ -28,7 +28,7 @@
 -
   type: conference
   title: "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models"
-  authors: <b>TwelvLabs Team</b>
+  authors: <b>TwelveLabs Team</b>
   conference: Technical Report
   year: 2024
   pdf: https://arxiv.org/abs/2408.11318
@@ -37,7 +37,7 @@
 -
   type: conference
   title: "Pegasus-v1 Technical Report"
-  authors: <b>TwelvLabs Team</b>
+  authors: <b>TwelveLabs Team</b>
   conference: Technical Report
   year: 2024
   pdf: https://arxiv.org/abs/2404.14687
