@@ -4,16 +4,16 @@ label: AI Researcher
 
 picture: /img/me.JPG
 
-email: jw1510@yonsei.ac.kr
+email: junwan.kim@nyu.edu
 
 phone: +82-10-9353-7393
 
-department: Computer Vision
+department: Computer Vision, Multi-modal Learning
 
-institution: <b>Undergraduate Student @ Yonsei Univiersity</b>
+institution: <b>Master's Student @ New York Univiersity</b>
 
 mailing_address: >
-  50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
+  251 Mercer St, New York, NY 10012, US
 
 profiles:
   - 
@@ -25,18 +25,12 @@ profiles:
     username: Junwan KIM
     url: https://linkedin.com/in/junwan-kim-39b3aa287
   -
-    network: Notion
-    username: Junwan KIM
-    url: https://kimjunwan.notion.site
-  -
     network: CV
     username: Junwan KIM
-    url: https://drive.google.com/file/d/1pas-Ltzkol_pTt-Z-hqoWYCXcQqjn6Om/view?usp=sharing
+    url: https://drive.google.com/file/d/1mlzRbrN5X880QOOUtMp6OI15tQtwkNgz/view?usp=sharing
 
 intro:
   title: Junwan Kim
   body: >
-    Currently, I am an undergraduate student majoring in Electrical and Electronic Engineering at Yonsei University.
-    My research interest lies in the field of artificial intelligence, particularly high-dimensional computer vision perceptions (like 3D, videos, etc.).
-    I am also highly interseted in building AR/VR worlds through AI.
-    I am searching for MS/Ph.D. programs abroad that aligns with my research interests and career goals.
+    I am a Master’s student in Computer Science at New York University, Courant Institute of Mathematical Sciences. Prior to NYU, I earned my B.S. in Electrical and Electronic Engineering from Yonsei University. My research interests lie in artificial intelligence, with a focus on generative models and multi-modal learning.
+  
