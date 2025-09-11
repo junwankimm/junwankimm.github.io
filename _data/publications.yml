@@ -1,5 +1,14 @@
 -
   type: conference
+  title: '<img src="/img/viral_robot.png" style="height:0.9em; vertical-align:middle;"> Visual Representation Alignment for Multimodal Large Language Models'
+  authors: <b>Heeji Yoon*, Jaewoo Jung*, <u>Junwan Kim*</u>, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim</b>
+  conference: arXiv preprint
+  year: 2025
+  pdf: https://cvlab-kaist.github.io/VIRAL/
+  url: https://cvlab-kaist.github.io/VIRAL/
+  image: /img/publications/viral.png
+-
+  type: conference
   title: "URECA💡: Unique Region Caption Anything"
   authors: <b>Sangbeom Lim*, <u>Junwan Kim*</u>, Heeji Yoon, Jaewoo Jung, Seungryong Kim</b>
   conference: arXiv preprint
