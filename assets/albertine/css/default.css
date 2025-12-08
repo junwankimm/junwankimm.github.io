@@ -123,22 +123,34 @@ section a:hover {
 }
 
 /*******************
- * INTRO SCREEN
+ * INTRO SCREEN - FORCE WHITE
  *******************/
-.intro-screen,
-.intro-screen header {
-  background-color:#fff; /* Change from #7893b9 to white */
-  color:#000; /* Change to black text */
-}
-  .intro-screen h1,
-  .intro-screen h2,
-  .intro-screen h3 {
-    color:#000; /* Change to black */
-  }
-  .intro-screen a,
-  .intro-screen a:hover {
-    color:#44a9eb; /* Keep link color */
-  }
+ body,
+ .intro-screen,
+ .intro-screen header {
+   background-color: #fff !important;
+   color: #000 !important;
+ }
+ 
+ /*******************
+  * CONFERENCE LABEL
+  *******************/
+ .conference-label {
+   position: absolute;
+   bottom: 5px;
+   left: 5px;
+   background-color: rgba(0, 0, 0, 0.7);
+   color: #fff;
+   padding: 4px 8px;
+   font-size: 12px;
+   border-radius: 3px;
+   font-weight: bold;
+   z-index: 10;
+ }
+ 
+ .publication-image {
+   position: relative;
+ }
 
 /*******************
  * TRANSITIONS
