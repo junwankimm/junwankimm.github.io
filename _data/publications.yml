@@ -1,73 +1,81 @@
 -
   type: conference
   title: '<img src="/img/viral_robot.png" style="height:0.9em; vertical-align:middle;"> Visual Representation Alignment for Multimodal Large Language Models'
-  authors: <b>Heeji Yoon*, Jaewoo Jung*, <u>Junwan Kim*</u>, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim</b>
+  authors: Heeji Yoon*, Jaewoo Jung*, <b><u>Junwan Kim*</u></b>, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim
   conference: arXiv preprint
+  venue: arXiv
   year: 2025
-  pdf: https://cvlab-kaist.github.io/VIRAL/
+  pdf: https://arxiv.org/abs/2509.07979/
   url: https://cvlab-kaist.github.io/VIRAL/
   image: /img/publications/viral.png
 -
   type: conference
   title: "URECA💡: Unique Region Caption Anything"
-  authors: <b>Sangbeom Lim*, <u>Junwan Kim*</u>, Heeji Yoon, Jaewoo Jung, Seungryong Kim</b>
+  authors: Sangbeom Lim*, <b><u>Junwan Kim*</u></b>, Heeji Yoon, Jaewoo Jung, Seungryong Kim
   conference: arXiv preprint
+  venue: arXiv
   year: 2025
-  pdf: https://cvlab-kaist.github.io/URECA/
+  pdf: https://arxiv.org/abs/2504.05305/
   url: https://cvlab-kaist.github.io/URECA/
   image: /img/publications/ureca.png
 -
   type: conference
   title: '<img src="/img/diamond.png" style="height:0.9em; vertical-align:middle;"> V.I.P.: Iterative Online Preference Distillation for Efficient Video Diffusion Models'
-  authors: <b>Jisoo Kim, Wooseok Seo, <u>Junwan Kim</u>, Seungho Park, Sooyeon Park, Youngjae Yu</b>
+  authors: Jisoo Kim, Wooseok Seo, <b><u>Junwan Kim</u></b>, Seungho Park, Sooyeon Park, Youngjae Yu
   conference: International Conference of Computer Vision (ICCV) 2025
   year: 2025
+  venue: ICCV
   pdf: https://arxiv.org/abs/2508.03254
-  url: https://arxiv.org/abs/2508.03254
+  url: https://jiiiisoo.github.io/VIP.github.io/
   image: /img/publications/vip.png
 -
   type: conference
   title: "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding"
-  authors: <b>Jungbin Cho*, <u>Junwan Kim*</u>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu</b>
-  conference: International Conference of Computer Vision (ICCV) 2025, <b>Highlight (263/11239=2.34%)</b>
+  authors: Jungbin Cho*, <b><u>Junwan Kim*</u></b>, Jisoo Kim, Minseo Kim, Mingu Kang, Sungeun Hong, Tae-Hyun Oh, Youngjae Yu
+  conference: International Conference of Computer Vision (ICCV) 2025, Highlight (263/11239=2.34%)
   year: 2024
-  pdf: https://whwjdqls.github.io/discord-motion/
+  venue: ICCV
+  pdf: https://arxiv.org/abs/2411.19527/
   url: https://whwjdqls.github.io/discord-motion/
   image: /img/publications/discord.png
 -
   type: conference
   title: "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models"
-  authors: <b>TwelveLabs Team</b>
+  authors: TwelveLabs Team
   conference: Technical Report
+  venue: Technical Report
   year: 2024
   pdf: https://arxiv.org/abs/2408.11318
-  url: https://arxiv.org/abs/2408.11318
+  url: https://www.twelvelabs.io/blog/twlv-i
   image: /img/publications/twlv_i.png
 -
   type: conference
   title: "Pegasus-v1 Technical Report"
-  authors: <b>TwelveLabs Team</b>
+  authors: TwelveLabs Team
   conference: Technical Report
+  venue: Technical Report
   year: 2024
   pdf: https://arxiv.org/abs/2404.14687
-  url: https://arxiv.org/abs/2404.14687
+  url: https://www.twelvelabs.io/blog/upgrading-pegasus-1
   image: /img/publications/pegasus.png
 -
   type: conference
   title: "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning"
-  authors: <b>Chanhyuk Park*, Jungbin Cho*, <u>Junwan Kim*</u>, Seongmin Lee, Jungsu Kim, Sanghoon Lee</b>
+  authors: Chanhyuk Park*, Jungbin Cho*, <b><u>Junwan Kim*</u></b>, Seongmin Lee, Jungsu Kim, Sanghoon Lee
   conference: International Joint Conference on Artificial Intelligence (IJCAI) Demo Track 2024
   year: 2024
+  venue: IJCAI
   pdf: https://arxiv.org/abs/2409.00012
-  url: https://arxiv.org/abs/2409.00012
+  url: https://www.ijcai.org/proceedings/2024/1027
   image: /img/publications/avin_chat.png
 -
   type: conference
   title: Design and Implementation of User-Interactive Crowd Accident Avoiding System
-  authors: <b><u>Junwan Kim*</u>, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah</b>
+  authors: <b><u>Junwan Kim*</u></b>, Youngbae Kong*, Byeongho Kim*, Minjae Park*, Jeongeun Nah
   conference: Annual Conference of Korea Information Processing Society (ACK) 2023
   year: 2023
   pages: 914-915
+  venue: ACK
   pdf: https://kiss.kstudy.com/Detail/Ar?key=4059502
   url: https://kiss.kstudy.com/Detail/Ar?key=4059502
   image: /img/publications/caas.png

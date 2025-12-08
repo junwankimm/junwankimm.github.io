@@ -28,6 +28,7 @@ It is threatened by habitat loss.
   <title>{{ site.data.personal.name }}</title>
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -49,46 +50,29 @@ It is threatened by habitat loss.
   <!-- ==================== -->
   <!-- HEADER -->
   <!-- ==================== -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-9 col-lg-9">
-          <h1>
-            {{ site.data.personal.name }}
-          </h1>
-          <h2>
-            {{ site.data.personal.label }}
-          </h2>
-        </div>
-        <div class="col-xs-3 col-lg-3 profile-image-container">
-          <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
-               class="img-square profile-image">
-        </div>
-      </div>
-    </div>
-  </header>
+  
 
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
-  <div class="container"
-           id="section-about">
+  <div class="container" id="section-about" style="margin-top: 80px;">
     <div class="row">
-      <section class="col-md-8">
+      <div class="col-md-2">
+        <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
+             class="profile-image"
+             style="width: 160px; margin-top: 20px; margin-right: 30px;">
+      </div>
+      <section class="col-md-6">
         {% if site.data.personal.intro.title %}
-          <h3 style="font-size:48px">
+          <h3 style="font-size:36px; margin-bottom: 10px;">
             {{ site.data.personal.intro.title }}
           </h3>
         {% else %}
-          <h3>
-            About
-          </h3>
+          <h3>About</h3>
         {% endif %}
-
-        <div class="lead">
+        <div class="lead" style="font-size: 18px;">
           {{ site.data.personal.intro.body | markdownify }}
         </div>
-        
       </section>
       <section class="col-md-offset-1 col-md-3 contact-sticky">
         <h3>Contact</h3>
@@ -129,50 +113,47 @@ It is threatened by habitat loss.
     <div class="row">
       <section class="col-md-9">
         <h3>Publications</h3>
+        <p class="text-right-black"><small>* denotes equal contribution | Listed in reverse chronological order</small></p>
         {% for publication in site.data.publications %}
           <div class="publication-item" style="display: flex; align-items: flex-start; margin-top: 30px;">
             
-            <div class="publication-image" style="flex: 0 0 130px; margin-right: 20px;">
+            <div class="publication-image" style="flex: 0 0 130px; margin-right: 20px; position: relative;">
               {% if publication.image %}
                 <a href="{{ publication.pdf }}">
                   <img src="{{ site.baseurl }}{{ publication.image }}"
-                        class="img-responsive"
-                        style="width: 100%; height: auto; border-radius: 0;">
+                       class="img-responsive"
+                       style="width: 100%; height: auto; border-radius: 0;">
                 </a>
+                {% if publication.venue %}
+                  <span class="conference-label">{{ publication.venue }}</span>
+                {% elsif publication.conference %}
+                  <span class="conference-label">{{ publication.conference | split: ' ' | first }}</span>
+                {% endif %}
               {% endif %}
             </div>
   
             <div class="publication-details">
               <p style="margin-top: 0;">
-                <b>
-                  <a href="{{ publication.pdf }}">
-                    {{ publication.title }}
-                  </a>
-                </b>
+                <b>{{ publication.title }}</b>
                 <br>
-                {{ publication.authors }}
+                <span style="font-size: 14px;">{{ publication.authors }}</span>
                 <br>
                 {% case publication.type %}
                   {% when 'conference' %}
-                    {{ publication.conference }}
-                  {% when 'dissertation' %}
-                    {{ publication.publisher }}
-                  {% when 'journal' %}
-                    {{ publication.journal }},
-                    {{ publication.volume }},
-                    {{ publication.issue }},
-                    {{ publication.pages }}
-                  {% when 'magazine' %}
-                    {{ publication.magazine }},
-                    {{ publication.volume }},
-                    {{ publication.issue }},
-                    {{ publication.pages }}
+                    <b><span style="font-size: 14px;">{{ publication.conference }}</span></b>
                 {% endcase %}
+                <br>
+                <!-- New icon links -->
+                {% if publication.url %}
+                  <a href="{{ publication.url }}"><i class="fa fa-globe"></i> Project Page</a>
+                {% endif %}
+                {% if publication.pdf %}
+                  <a href="{{ publication.pdf }}" style="margin-left: 10px;"><i class="ai ai-arxiv"></i> arXiv</a>
+                {% endif %}
               </p>
             </div>
           </div>
         {% endfor %}
-        <p class="text-right-black" style="margin-top: 15px;"><small>* denotes equal contribution</small></p>
       </section>
     </div>
   </div>
@@ -236,29 +217,31 @@ It is threatened by habitat loss.
     </div>
 
     {% for career in site.data.careers %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
+    <div class="row">
+      <div class="col-md-9">
+        <p style="display: flex; align-items: flex-start;">
+          {% if career.icon %}
+            <img src="{{ site.baseurl }}{{ career.icon }}" 
+                style="width: 24px; height: 24px; margin-right: 10px; margin-top: 3px;">
+          {% endif %}
+          <span>
             <b>
               {% if career.url %}
-                <a href="{{ career.url }}">
-                  {{ career.title }}
-                </a>
+                <a href="{{ career.url }}">{{ career.title }}</a>
               {% else %}
                 {{ career.title }}
               {% endif %}
             </b>
-            <small>
-              {{ career.date }}
-            </small>
+            <small>{{ career.date }}</small>
             <br>
-              {{ career.location }}
+            {{ career.location }}
             <br>
-              {{ career.detail }}
-          </p>
-        </div>
+            {{ career.detail }}
+          </span>
+        </p>
       </div>
-    {% endfor %}
+    </div>
+  {% endfor %}
   </section>
   {% endif %}
 
@@ -274,29 +257,31 @@ It is threatened by habitat loss.
     </div>
 
     {% for education in site.data.educations %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
+    <div class="row">
+      <div class="col-md-9">
+        <p style="display: flex; align-items: flex-start;">
+          {% if education.icon %}
+            <img src="{{ site.baseurl }}{{ education.icon }}" 
+                style="width: 24px; height: 24px; margin-right: 10px; margin-top: 3px;">
+          {% endif %}
+          <span>
             <b>
               {% if education.url %}
-                <a href="{{ education.url }}">
-                  {{ education.title }}
-                </a>
+                <a href="{{ education.url }}">{{ education.title }}</a>
               {% else %}
                 {{ education.title }}
               {% endif %}
             </b>
-            <small>
-              {{ education.date }}
-            </small>
+            <small>{{ education.date }}</small>
             <br>
-              {{ education.location }}
+            {{ education.location }}
             <br>
-              {{education.detail}}
-          </p>
-        </div>
+            {{ education.detail }}
+          </span>
+        </p>
       </div>
-    {% endfor %}
+    </div>
+  {% endfor %}
   </section>
   {% endif %}
 
@@ -308,9 +293,14 @@ It is threatened by habitat loss.
       </div>
     </div>
     {% for research in site.data.research_experience %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
+    <div class="row">
+      <div class="col-md-9">
+        <p style="display: flex; align-items: flex-start;">
+          {% if research.icon %}
+            <img src="{{ site.baseurl }}{{ research.icon }}" 
+                style="width: 24px; height: 24px; margin-right: 10px; margin-top: 3px;">
+          {% endif %}
+          <span>
             <b>
               {% if research.url %}
                 <a href="{{ research.url }}">{{ research.title }}</a>
@@ -323,10 +313,11 @@ It is threatened by habitat loss.
             {{ research.location }}
             <br>
             {{ research.detail }}
-          </p>
-        </div>
+          </span>
+        </p>
       </div>
-    {% endfor %}
+    </div>
+  {% endfor %}
   </section>
   {% endif %}
 
@@ -362,11 +353,7 @@ It is threatened by habitat loss.
   <script>
     $(document).ready(function () {
       $('#section-about').waypoint(function (direction) {
-        if (direction === 'down') {
-          $('body').removeClass('intro-screen');
-        } else {
-          $('body').addClass('intro-screen');
-        }
+        // Remove this functionality
       });
     });
   </script>

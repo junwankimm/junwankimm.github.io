@@ -95,46 +95,49 @@ footer {
 /*******************
  * SECTION
  *******************/
-section {
-  padding:3px 0;
+ section {
+  padding: 0;  /* Reduce from 3px 0 */
+  margin-bottom: 10px; /* Add small bottom margin */
 }
-  section h3 {
-    padding:0 0 8px;
-    line-height:40px;
-    font-weight:bold;
-    font-size:32px;
-    color:#000000;
-  }
-  section .lead {
-    font-size:24px;
-  }
-  section p {
-    margin-bottom:1em;
-  }
-  section p small {
-    opacity:0.5;
-  }
-  section a,
-  section a:hover {
-    color:#44a9eb;
-  }
+
+section h3 {
+  padding: 0 0 4px;  /* Reduce from 8px */
+  line-height: 36px; /* Reduce from 40px */
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+  margin-top: 15px;  /* Add smaller top margin */
+}
+section .lead {
+  font-size:26px;
+}
+section p {
+  margin-bottom:1em;
+}
+section p small {
+  opacity:0.5;
+}
+section a,
+section a:hover {
+  color:#44a9eb;
+}
 
 /*******************
  * INTRO SCREEN
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color:#7893b9;
-  color:#fff;
+  background-color:#fff; /* Change from #7893b9 to white */
+  color:#000; /* Change to black text */
 }
   .intro-screen h1,
   .intro-screen h2,
   .intro-screen h3 {
-    color:#fff;
+    color:#000; /* Change to black */
   }
   .intro-screen a,
   .intro-screen a:hover {
-    color:#fff59d;
+    color:#44a9eb; /* Keep link color */
   }
 
 /*******************
@@ -149,3 +152,22 @@ header {
 
 
 .info {font-size:14px;}
+
+.conference-label {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+header .profile-image {
+  margin-top: -6px;
+  width: 140px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 0; /* Square instead of circular */
+}

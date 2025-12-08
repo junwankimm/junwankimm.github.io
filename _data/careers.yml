@@ -3,18 +3,21 @@
   location: <b>Seoul, South Korea / San Francisco, USA </b>
   date: March 2024 - August 2024
   url: https://www.twelvelabs.io
+  icon: /img/icons/twelvelabs.png  # Add this field
   detail: "TwelveLabs, a startup specializing in foundation models for video understanding, where I worked as a research intern in the video-language research team. (Advisor: Prof. Minjoon Seo)"
 -
   title: Linq Alpha
   location: <b>Boston, USA (Remote)</b>
   date: September 2023 - January 2024
   url: https://www.getlinq.com
+  icon: /img/icons/linq.png  # Add this field
   detail: "Linq Alpha, a startup specializing in generative models for finance, where I participated in an industry-academic collaboration project. (Advisor: Prof. Jy-Yong Sohn)"
 -
   title: Rebuilder AI
   location: <b>Seoul, South Korea</b>
   date: July 2023 - August 2023
   url: https://rebuilderai.com
+  icon: /img/icons/rebuilder.png  # Add this field
   detail: Rebuilder AI is a startup specializing in developing AI models for 3D assets, where I participated in an industry-academic collaboration project.
 
 
