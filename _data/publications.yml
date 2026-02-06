@@ -1,5 +1,15 @@
 -
   type: conference
+  title: 'Better Source, Better Flow: Learning Condition-Dependent Source Distribution for Flow Matching'
+  authors: <b><u>Junwan Kim*</u></b>, Jiho Park*, Seonghu Jeon, Seungryong Kim
+  conference: arXiv preprint
+  venue: arXiv
+  year: 2026
+  pdf: https://arxiv.org/abs/2602.05951/
+  url: https://junwankimm.github.io/CSFM/
+  image: /img/publications/csfm.png
+-
+  type: conference
   title: '<img src="/img/viral_robot.png" style="height:0.9em; vertical-align:middle;"> Visual Representation Alignment for Multimodal Large Language Models'
   authors: Heeji Yoon*, Jaewoo Jung*, <b><u>Junwan Kim*</u></b>, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim
   conference: arXiv preprint
