@@ -3,7 +3,7 @@
   title: 'Reducing Peak Memory Usage for Modern Multimodal Large Language Model Pipelines'
   authors: <b><u>Junwan Kim*</u></b>, Hyunkyung Bae*
   conference: Association for Computational Linguistics (2026), Findings
-  venue: ACL 2026
+  venue: ACL
   year: 2026
   pdf: https://junwankimm.github.io/
   url: https://junwankimm.github.io/
@@ -24,7 +24,7 @@
   title: '<img src="/img/viral_robot.png" style="height:0.9em; vertical-align:middle;"> Visual Representation Alignment for Multimodal Large Language Models'
   authors: Heeji Yoon*, Jaewoo Jung*, <b><u>Junwan Kim*</u></b>, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim
   conference: International Conference on Learning Representations (ICLR) 2026, Workshop on Multimodal Intelligence
-  venue: ICLRW 2026
+  venue: ICLRW
   year: 2025
   pdf: https://arxiv.org/abs/2509.07979/
   url: https://cvlab-kaist.github.io/VIRAL/
