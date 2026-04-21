@@ -1,10 +1,10 @@
 -
-  title: MIRLAB
-  location: <b>Yonsei University, Seoul, South Korea</b>
-  date: Aug 2024 - Mar 2025
-  url: https://pi.snu.ac.kr/
-  icon: /img/icons/yonsei.png
-  detail: "Undergraduate Researcher (Supervisor: Prof. Yonugjae Yu)"
+  title: VISIONx
+  location: <b>New York University, New York, United States </b>
+  date: Sep 2025 - Present
+  url: https://www.sainingxie.com/
+  icon: /img/icons/visionx.png
+  detail: "Graduate Researcher (Supervisor: Prof. Saining Xie)"
 -
   title: CVLAB
   location: <b>KAIST (Korea Advanced Institute of Science & Technology), Seoul, South Korea</b>
@@ -13,9 +13,11 @@
   icon: /img/icons/kaist.png
   detail: "Undergraduate Researcher (Supervisor: Prof. Seungryong Kim)"
 -
-  title: VISIONx
-  location: <b>New York University, New York, United States </b>
-  date: Sep 2025 - Present
-  url: https://www.sainingxie.com/
-  icon: /img/icons/visionx.png
-  detail: "Graduate Researcher (Supervisor: Prof. Saining Xie)"
+  title: MIRLAB
+  location: <b>Yonsei University, Seoul, South Korea</b>
+  date: Aug 2024 - Mar 2025
+  url: https://pi.snu.ac.kr/
+  icon: /img/icons/yonsei.png
+  detail: "Undergraduate Researcher (Supervisor: Prof. Yonugjae Yu)"
+
+
