@@ -1,10 +1,10 @@
 -
   title: Apple
   location: <b>Cupertino, United States</b>
-  date: May 2026 - August 2026 (Expected)
+  date: May 2026 - August 2026
   url: https://www.apple.com
   icon: /img/icons/apple.png  # Add this field
-  detail: "Scene Understanding Team"
+  detail: "ISE / SIML"
 -
   title: TwelveLabs
   location: <b>Seoul, South Korea</b>
