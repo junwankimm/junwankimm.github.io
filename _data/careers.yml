@@ -4,14 +4,14 @@
   date: May 2026 - August 2026
   url: https://www.apple.com
   icon: /img/icons/apple.png  # Add this field
-  detail: "ISE / SIML"
+  detail: "Machine Learning Intern, SIML"
 -
   title: TwelveLabs
   location: <b>Seoul, South Korea</b>
   date: March 2024 - August 2024
   url: https://www.twelvelabs.io
   icon: /img/icons/twelvelabs.png  # Add this field
-  detail: "Pegasus Team (Mentor: <a href=\"https://seominjoon.github.io/\">Prof. Minjoon Seo</a>)"
+  detail: "Research Intern, Pegasus Team (Mentor: <a href=\"https://seominjoon.github.io/\">Prof. Minjoon Seo</a>)"
 -
   title: Linq Alpha
   location: <b>Boston, United States (Remote)</b>
