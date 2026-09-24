@@ -13,8 +13,8 @@
   type: conference
   title: 'Better Source, Better Flow: Learning Condition-Dependent Source Distribution for Flow Matching'
   authors: <b><u>Junwan Kim*</u></b>, Jiho Park*, Seonghu Jeon, Seungryong Kim
-  conference: arXiv preprint
-  venue: arXiv
+  conference: Neural Information Processing Systems (NeurIPS) 2026
+  venue: NeurIPS
   year: 2026
   pdf: https://arxiv.org/abs/2602.05951/
   url: https://junwankimm.github.io/CSFM/
